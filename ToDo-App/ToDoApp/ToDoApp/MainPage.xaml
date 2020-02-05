@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ToDoApp.MainPage">
+
+    <Grid x:Name="controlGrid" RowSpacing="1" Margin="0,0,0,0" Padding="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height =".5*"/>
+            <RowDefinition Height ="2.5*"/>
+            <RowDefinition Height =".5*"/>
+            <RowDefinition Height =".5*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" ColumnSpacing="0" >
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width ="*"/>
+                <ColumnDefinition Width ="*"/>
+                <ColumnDefinition Width ="*"/>
+                
+            </Grid.ColumnDefinitions>
+            <Button BackgroundColor="LightBlue" ImageSource="sun1" HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand" Grid.Column="0" Clicked="TakeMeTo_MidDay" Text="Morning" />
+            <Button BackgroundColor="LightBlue" Text="Noon" ImageSource="sun2" HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand" Grid.Column="1" Clicked="TakeMeTo_Noon"/>
+            <Button BackgroundColor="LightBlue" Text="Night " ImageSource="night" HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"  Grid.Column="2" Clicked="TakeMeTo_Night"/>
+            
+
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height ="*"/>
+                <RowDefinition Height ="*"/>
+                <RowDefinition Height ="*"/>
+                <RowDefinition Height ="*"/>
+                <RowDefinition Height ="*"/>
+                <RowDefinition Height ="*"/>
+                <RowDefinition Height ="*"/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Text="To Do List" HorizontalOptions="Center" VerticalOptions="Center" FontSize="12" />
+            <Entry Grid.Row="1" Text="Enter task" />
+            <Entry Grid.Row="2" Text="Shoping"/>
+            <Entry Grid.Row="3" Text="Cook"/>
+            <Button Grid.Row="6" Text="  +      Add Task  " HorizontalOptions="Start" VerticalOptions="Center" FontSize="16" BackgroundColor="White" Clicked="Add_Activity"/>
+            
+
+        </Grid>
+
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label BackgroundColor="#bababa" HeightRequest="1" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+            <Image Source="ToDoList" Grid.Column="1" VerticalOptions="FillAndExpand" Margin="0" Aspect="AspectFill"/>
+            <Label BackgroundColor="#bababa" HeightRequest="1" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Grid.Column="2"/>
+
+        </Grid>
+        
+
+
+    </Grid>
+
+</ContentPage>
