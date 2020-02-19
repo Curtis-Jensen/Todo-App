@@ -349,5 +349,6 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
+#Brother Plumb recommended these -Curtis Jensen
 .DS_Store
 [Tt]humbs.dv
