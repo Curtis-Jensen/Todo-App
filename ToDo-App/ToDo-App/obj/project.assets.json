@@ -595,25 +595,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\18016\\.nuget\\packages\\": {},
+    "C:\\Users\\vikin\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\18016\\source\\repos\\ToDo-App\\ToDo-App\\ToDo-App\\ToDo-App.csproj",
+      "projectUniqueName": "C:\\Users\\vikin\\source\\repos\\Todo-App\\ToDo-App\\ToDo-App\\ToDo-App.csproj",
       "projectName": "ToDo-App",
-      "projectPath": "C:\\Users\\18016\\source\\repos\\ToDo-App\\ToDo-App\\ToDo-App\\ToDo-App.csproj",
-      "packagesPath": "C:\\Users\\18016\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\18016\\source\\repos\\ToDo-App\\ToDo-App\\ToDo-App\\obj\\",
+      "projectPath": "C:\\Users\\vikin\\source\\repos\\Todo-App\\ToDo-App\\ToDo-App\\ToDo-App.csproj",
+      "packagesPath": "C:\\Users\\vikin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vikin\\source\\repos\\Todo-App\\ToDo-App\\ToDo-App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\18016\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vikin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -658,10 +658,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

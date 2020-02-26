@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\18016\\source\\repos\\ToDo-App\\ToDo-App\\ToDo-App.iOS\\ToDo-App.iOS.csproj": {}
+    "C:\\Users\\vikin\\source\\repos\\Todo-App\\ToDo-App\\ToDo-App.iOS\\ToDo-App.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\18016\\source\\repos\\ToDo-App\\ToDo-App\\ToDo-App.iOS\\ToDo-App.iOS.csproj": {
+    "C:\\Users\\vikin\\source\\repos\\Todo-App\\ToDo-App\\ToDo-App.iOS\\ToDo-App.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\18016\\source\\repos\\ToDo-App\\ToDo-App\\ToDo-App.iOS\\ToDo-App.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\vikin\\source\\repos\\Todo-App\\ToDo-App\\ToDo-App.iOS\\ToDo-App.iOS.csproj",
         "projectName": "ToDo-App.iOS",
-        "projectPath": "C:\\Users\\18016\\source\\repos\\ToDo-App\\ToDo-App\\ToDo-App.iOS\\ToDo-App.iOS.csproj",
-        "packagesPath": "C:\\Users\\18016\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\18016\\source\\repos\\ToDo-App\\ToDo-App\\ToDo-App.iOS\\obj\\",
+        "projectPath": "C:\\Users\\vikin\\source\\repos\\Todo-App\\ToDo-App\\ToDo-App.iOS\\ToDo-App.iOS.csproj",
+        "packagesPath": "C:\\Users\\vikin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vikin\\source\\repos\\Todo-App\\ToDo-App\\ToDo-App.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\18016\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vikin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

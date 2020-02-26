@@ -4259,11 +4259,12 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -7980,18 +7981,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\18016\\.nuget\\packages\\": {},
+    "C:\\Users\\vikin\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\18016\\source\\repos\\ToDo-App\\ToDo-App\\ToDo-App.UWP\\ToDo-App.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\vikin\\source\\repos\\Todo-App\\ToDo-App\\ToDo-App.UWP\\ToDo-App.UWP.csproj",
       "projectName": "ToDo-App.UWP",
-      "projectPath": "C:\\Users\\18016\\source\\repos\\ToDo-App\\ToDo-App\\ToDo-App.UWP\\ToDo-App.UWP.csproj",
-      "packagesPath": "C:\\Users\\18016\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\18016\\source\\repos\\ToDo-App\\ToDo-App\\ToDo-App.UWP\\obj\\",
+      "projectPath": "C:\\Users\\vikin\\source\\repos\\Todo-App\\ToDo-App\\ToDo-App.UWP\\ToDo-App.UWP.csproj",
+      "packagesPath": "C:\\Users\\vikin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vikin\\source\\repos\\Todo-App\\ToDo-App\\ToDo-App.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -7999,7 +8000,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\18016\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vikin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
