@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ToDoApp.MainPage">
+
+    <Grid x:Name="controlGrid" RowSpacing="1" Margin="10,0,10,0" Padding="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height =".5*"/>
+            <RowDefinition Height ="2.5*"/>
+            <RowDefinition Height =".5*"/>
+            <RowDefinition Height =".5*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" ColumnSpacing="0" >
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width ="*"/>
+                <ColumnDefinition Width ="*"/>
+                <ColumnDefinition Width ="*"/>
+                <ColumnDefinition Width ="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Text="Mid Day"  ImageSource="" Grid.Column="0"/>
+            <Button Text="Noon" ImageSource="" Grid.Column="1"/>
+            <Button Text="Night " ImageSource="" Grid.Column="2"/>
+            <Button Text="  +  " ImageSource="Mail" Grid.Column="3" Clicked="New_Tab_Button"/>
+
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height ="*"/>
+                <RowDefinition Height ="*"/>
+                <RowDefinition Height ="*"/>
+                <RowDefinition Height ="*"/>
+                <RowDefinition Height ="*"/>
+                <RowDefinition Height ="*"/>
+                <RowDefinition Height ="*"/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Text="To Do List" HorizontalOptions="Center" VerticalOptions="Center" FontSize="12" />
+            <Button Grid.Row="1" Text="  Homework                                 " HorizontalOptions="Start" VerticalOptions="Center" FontSize="16" BackgroundColor="White"/>
+            <Image Source="Homework" Grid.Row="1" HorizontalOptions="End" VerticalOptions="Center"  BackgroundColor="White"/>
+
+            <Button Grid.Row="2" Text="  Shoping                                                         " HorizontalOptions="Start" VerticalOptions="Center" FontSize="16" BackgroundColor="White"/>
+            <Image Source="Shoping" Grid.Row="2" HorizontalOptions="End" VerticalOptions="Center" BackgroundColor="White"/>
+            <Button Grid.Row="3" Text="  Cook                                           " HorizontalOptions="Start" VerticalOptions="Center" FontSize="16" BackgroundColor="White" />
+            <Image Source="Eat" Grid.Row="3" HorizontalOptions="End" VerticalOptions="Center" BackgroundColor="White"/>
+            <Button Grid.Row="4" Text="  Eat                                                  " HorizontalOptions="Start" VerticalOptions="Center" FontSize="16" BackgroundColor="White"/>
+            <Image Source="Cook" Grid.Row="4" HorizontalOptions="End" VerticalOptions="Center" BackgroundColor="White"/>
+            <Button Grid.Row="5" Text="  Kiss my Wife                                                      " HorizontalOptions="Start" VerticalOptions="Center" FontSize="16" BackgroundColor="White"/>
+            <Image Source="Kiss my Wife" Grid.Row="5" HorizontalOptions="End" VerticalOptions="Center" BackgroundColor="White"/>
+            <Button Grid.Row="6" Text="  +      Add Task                                                " HorizontalOptions="Start" VerticalOptions="Center" FontSize="16" BackgroundColor="White"/>
+            <Image Source="Kiss my Wife" Grid.Row="5" HorizontalOptions="End" VerticalOptions="Center" BackgroundColor="White"/>
+
+        </Grid>
+
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label BackgroundColor="#bababa" HeightRequest="1" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+            <Image Source="ToDoList" Grid.Column="1" VerticalOptions="FillAndExpand" Margin="0" Aspect="AspectFill"/>
+            <Label BackgroundColor="#bababa" HeightRequest="1" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Grid.Column="2"/>
+
+        </Grid>
+        
+
+
+    </Grid>
+
+</ContentPage>
