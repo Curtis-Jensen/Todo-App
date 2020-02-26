@@ -352,3 +352,8 @@ MigrationBackup/
 #Brother Plumb recommended these -Curtis Jensen
 .DS_Store
 [Tt]humbs.dv
+
+#Was having trouble with theses files -Curtis
+.dtbcache
+.lock
+.ide
