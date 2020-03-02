@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:ButtonCircle.FormsPlugin.Abstractions;assembly=ButtonCircle.FormsPlugin.Abstractions"
+             xmlns:local1="clr-namespace:ToDoApp"
+             
+             mc:Ignorable="d"
+             x:Class="ToDoApp.MainPage">
+    <ContentPage.BindingContext>
+        <local1:AddListViewModel/>
+    </ContentPage.BindingContext>
+
+    <Grid x:Name="controlGrid" RowSpacing="0" Margin="0,10,0,0" Padding="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height =".5*"/>
+            <RowDefinition Height =".3*"/>
+            <RowDefinition Height ="2.5*"/>
+            <RowDefinition Height =".6*"/>
+            <RowDefinition Height =".3*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" >
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width ="*"/>
+                <ColumnDefinition Width ="*"/>
+                <ColumnDefinition Width ="*"/>
+                
+            </Grid.ColumnDefinitions>
+            <local:CircleButton Grid.Column="0" FontIcon="Material" FontSize="15" TextColor="White" 
+                                BorderColor="Black" Clicked="TakeMeTo_MidDay" Text="Morning" BackgroundColor="#389bd9">
+            </local:CircleButton>
+            <local:CircleButton Grid.Column="1" FontIcon="Material" FontSize="15" TextColor="White" 
+                                BorderColor="Black" Clicked="TakeMeTo_Noon" Text="Noon" BackgroundColor="#389bd9">
+            </local:CircleButton>
+            <local:CircleButton Grid.Column="2" FontIcon="Material" FontSize="15" TextColor="White" 
+                                BorderColor="Black" Clicked="TakeMeTo_Night" Text="Night" BackgroundColor="#389bd9">
+            </local:CircleButton>
+            <local:CircleButton Grid.Column="3" FontIcon="Material" Icon="md-add" FontSize="30" TextColor="White" Clicked="TakeMeTo_Noon" 
+                                HeightRequest="70" WidthRequest="70" BorderThickness="2" BackgroundColor="#389bd9">
+            </local:CircleButton>
+
+
+        </Grid>
+
+
+
+        <Label Grid.Row="1" Grid.Column="0" Text="To Do List" HorizontalOptions="Center" VerticalOptions="Start" FontSize="12" Margin="0,10,0,10" />
+            
+            <StackLayout Grid.Row="2">
+                
+                <Entry Placeholder="Add new Activity" Text ="{Binding EmployeeName}" ></Entry>
+                <ListView x:Name="EmployeesList" ItemsSource="{Binding Employees}" SelectedItem="{Binding SelectedEmployeeName}"></ListView>
+                <Button Text="Add New Task by Clicking here" Command="{Binding AddEmployeeCommand}"></Button>
+                <Button Text="Delete Task by Clicking here" Command="{Binding DeleteEmployeeCommand}"></Button>
+
+        </StackLayout>
+
+        
+
+        <StackLayout Grid.Row="3" >
+            <local:CircleButton Text="AddTask " FontSize="8" TextColor="White" Clicked="Add_Activity" 
+                                HeightRequest="70" WidthRequest="70" BorderThickness="2"  BackgroundColor="#389bd9">
+            </local:CircleButton>
+
+        </StackLayout>
+
+        <Grid Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label BackgroundColor="#bababa" HeightRequest="1" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+            <Image Source="ToDoList" Grid.Column="1" VerticalOptions="FillAndExpand" Margin="0" Aspect="AspectFill"/>
+            <Label BackgroundColor="#bababa" HeightRequest="1" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Grid.Column="2"/>
+
+        </Grid>
+        
+
+
+    </Grid>
+
+</ContentPage>
