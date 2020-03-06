@@ -1099,24 +1099,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vikin\\.nuget\\packages\\": {},
+    "C:\\Users\\john\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vikin\\source\\repos\\ToDoApp\\ToDoApp\\ToDoApp.iOS\\ToDoApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp.iOS\\ToDoApp.iOS.csproj",
       "projectName": "ToDoApp.iOS",
-      "projectPath": "C:\\Users\\vikin\\source\\repos\\ToDoApp\\ToDoApp\\ToDoApp.iOS\\ToDoApp.iOS.csproj",
-      "packagesPath": "C:\\Users\\vikin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vikin\\source\\repos\\ToDoApp\\ToDoApp\\ToDoApp.iOS\\obj\\",
+      "projectPath": "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp.iOS\\ToDoApp.iOS.csproj",
+      "packagesPath": "C:\\Users\\john\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\vikin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\john\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1130,8 +1130,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\vikin\\source\\repos\\ToDoApp\\ToDoApp\\ToDoApp\\ToDoApp.csproj": {
-              "projectPath": "C:\\Users\\vikin\\source\\repos\\ToDoApp\\ToDoApp\\ToDoApp\\ToDoApp.csproj"
+            "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp\\ToDoApp.csproj": {
+              "projectPath": "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp\\ToDoApp.csproj"
             }
           }
         }
