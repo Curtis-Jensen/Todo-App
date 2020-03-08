@@ -20,5 +20,9 @@ namespace ToDoApp
         {
             Navigation.PushAsync(new AddActivity());
         }
+        private void Overview(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MainPage());
+        }
     }
 }

@@ -18,17 +18,20 @@
                     <RowDefinition Height ="*"/>
                 </Grid.RowDefinitions>
 
-                <Label Grid.Row="0" Grid.Column="0" Text="To Do List" HorizontalOptions="Center" VerticalOptions="Center" FontSize="12" />
+                <Label Grid.Row="0" Grid.Column="0" Text="To Do List" HorizontalOptions="Fill" VerticalOptions="Start" BackgroundColor="LemonChiffon" FontSize="22" />
                 <Entry Grid.Row="1" Text="Take a shower" />
                 <Entry Grid.Row="2" Text="Eat my breakfast"/>
                 <Entry Grid.Row="3" Text="Catch the bus "/>
                 <Entry Grid.Row="4" Text="Go to school" />
                 <Entry Grid.Row="5" Text="Read"/>
-
-                <Button Grid.Row="6" Text="  +      Add Task " HorizontalOptions="Start" VerticalOptions="Center" FontSize="16" BackgroundColor="White" Clicked="Add_Activity"/>
-
+                <Entry Grid.Row="6" HorizontalOptions="Center"/>
+                <Entry Grid.Row="7" HorizontalOptions="Center"/>
+                <Entry Grid.Row="8" HorizontalOptions="Center"/>
+                <Entry Grid.Row="9" HorizontalOptions="Center"/>
+                <Button Grid.Row="10" Text="  +      Add Task " HorizontalOptions="Center" VerticalOptions="Center" FontSize="16" BackgroundColor="White" Clicked="Add_Activity"/>
+                <Button Grid.Row="11" Text="To Do Manager (Add/Delete)"     HorizontalOptions="Start" VerticalOptions="Fill"  FontSize="8" BackgroundColor="DarkOliveGreen" TextColor="White" Clicked="Overview"/>
             </Grid>
-
+                
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
