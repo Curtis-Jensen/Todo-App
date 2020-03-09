@@ -33,7 +33,7 @@
                     <Entry Grid.Row="1" Placeholder="Set Date" VerticalOptions="Start" FontSize="32" />
                     <!--DatePicker-->
                     <Entry Grid.Row="2" Placeholder="Set Location" VerticalOptions="Start" FontSize="32" />
-                    <!--Embedded Map-->
+                    <!--Yes/No option, if yes then Embedded Map-->
                 </Grid>
 
                 <Grid Grid.Row="3">
