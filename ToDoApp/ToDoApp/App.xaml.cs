@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XFThemes;
 
 namespace ToDoApp
 {
@@ -9,6 +10,7 @@ namespace ToDoApp
         public App()
         {
             InitializeComponent();
+            ThemeManager.LoadTheme();
             var time = DateTime.Now;
             int hour = time.Hour;
 
@@ -35,6 +37,10 @@ namespace ToDoApp
             {
                 MainPage = hour < 14 ? new NavigationPage(new Noon()) : new NavigationPage(new Night());
             }
+        }
+        protected void OnUpdate()
+        {
+            //look at location, iterate through to-dos, push notification if within a certain distance of "pin"
         }
 
         protected override void OnSleep()
