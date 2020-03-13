@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp\\ToDoApp.csproj": {}
+    "/Users/pedroevangelista/Documents/GitHub/Todo-App/ToDoApp/ToDoApp/ToDoApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp\\ToDoApp.csproj": {
+    "/Users/pedroevangelista/Documents/GitHub/Todo-App/ToDoApp/ToDoApp/ToDoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp\\ToDoApp.csproj",
+        "projectUniqueName": "/Users/pedroevangelista/Documents/GitHub/Todo-App/ToDoApp/ToDoApp/ToDoApp.csproj",
         "projectName": "ToDoApp",
-        "projectPath": "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp\\ToDoApp.csproj",
-        "packagesPath": "C:\\Users\\john\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp\\obj\\",
+        "projectPath": "/Users/pedroevangelista/Documents/GitHub/Todo-App/ToDoApp/ToDoApp/ToDoApp.csproj",
+        "packagesPath": "/Users/pedroevangelista/.nuget/packages/",
+        "outputPath": "/Users/pedroevangelista/Documents/GitHub/Todo-App/ToDoApp/ToDoApp/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\john\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/pedroevangelista/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,13 +46,17 @@
               "target": "Package",
               "version": "[2.0.3, )"
             },
+            "Xam.Plugin.Geolocator": {
+              "target": "Package",
+              "version": "[4.5.0.6, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.2.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.2.0.709249, )"
+              "version": "[4.5.0.356, )"
             },
             "Xamarin.Forms.Maps": {
               "target": "Package",
@@ -75,7 +73,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
         }
       }
     }
