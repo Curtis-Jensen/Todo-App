@@ -32,7 +32,8 @@
                     <Entry Grid.Row="0" Placeholder="Enter new Task" VerticalOptions="Start" FontSize="32" Text ="{Binding EmployeeName}" />
                     <Entry Grid.Row="1" Placeholder="Set Date" VerticalOptions="Start" FontSize="32" />
                     <!--DatePicker-->
-                    <Entry Grid.Row="2" Placeholder="Set Location" VerticalOptions="Start" FontSize="32" />
+                    <Button Grid.Row="2" Text="Set Location" Clicked="OnButtonClicked" VerticalOptions="Start" FontSize="32" />
+                    <!--<Entry Grid.Row="2" Placeholder="Set Location" VerticalOptions="Start" FontSize="32" />-->
                     <!--Yes/No option, if yes then Embedded Map-->
                 </Grid>
 
