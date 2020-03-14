@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pedroevangelista/Documents/GitHub/Todo-App/ToDoApp/ToDoApp.Android/ToDoApp.Android.csproj": {}
+    "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp.Android\\ToDoApp.Android.csproj": {}
   },
   "projects": {
-    "/Users/pedroevangelista/Documents/GitHub/Todo-App/ToDoApp/ToDoApp.Android/ToDoApp.Android.csproj": {
+    "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp.Android\\ToDoApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pedroevangelista/Documents/GitHub/Todo-App/ToDoApp/ToDoApp.Android/ToDoApp.Android.csproj",
+        "projectUniqueName": "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp.Android\\ToDoApp.Android.csproj",
         "projectName": "ToDoApp.Android",
-        "projectPath": "/Users/pedroevangelista/Documents/GitHub/Todo-App/ToDoApp/ToDoApp.Android/ToDoApp.Android.csproj",
-        "packagesPath": "/Users/pedroevangelista/.nuget/packages/",
-        "outputPath": "/Users/pedroevangelista/Documents/GitHub/Todo-App/ToDoApp/ToDoApp.Android/obj/",
+        "projectPath": "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp.Android\\ToDoApp.Android.csproj",
+        "packagesPath": "C:\\Users\\john\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/pedroevangelista/.config/NuGet/NuGet.Config"
+          "C:\\Users\\john\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "monoandroid90"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "/Users/pedroevangelista/Documents/GitHub/Todo-App/ToDoApp/ToDoApp/ToDoApp.csproj": {
-                "projectPath": "/Users/pedroevangelista/Documents/GitHub/Todo-App/ToDoApp/ToDoApp/ToDoApp.csproj"
+              "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp\\ToDoApp.csproj": {
+                "projectPath": "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp\\ToDoApp.csproj"
               }
             }
           }
@@ -52,22 +58,28 @@
         }
       }
     },
-    "/Users/pedroevangelista/Documents/GitHub/Todo-App/ToDoApp/ToDoApp/ToDoApp.csproj": {
+    "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp\\ToDoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pedroevangelista/Documents/GitHub/Todo-App/ToDoApp/ToDoApp/ToDoApp.csproj",
+        "projectUniqueName": "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp\\ToDoApp.csproj",
         "projectName": "ToDoApp",
-        "projectPath": "/Users/pedroevangelista/Documents/GitHub/Todo-App/ToDoApp/ToDoApp/ToDoApp.csproj",
-        "packagesPath": "/Users/pedroevangelista/.nuget/packages/",
-        "outputPath": "/Users/pedroevangelista/Documents/GitHub/Todo-App/ToDoApp/ToDoApp/obj/",
+        "projectPath": "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp\\ToDoApp.csproj",
+        "packagesPath": "C:\\Users\\john\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/pedroevangelista/.config/NuGet/NuGet.Config"
+          "C:\\Users\\john\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -121,7 +133,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

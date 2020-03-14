@@ -2286,32 +2286,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/pedroevangelista/.nuget/packages/": {}
+    "C:\\Users\\john\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/pedroevangelista/Documents/GitHub/Todo-App/ToDoApp/ToDoApp.Android/ToDoApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp.Android\\ToDoApp.Android.csproj",
       "projectName": "ToDoApp.Android",
-      "projectPath": "/Users/pedroevangelista/Documents/GitHub/Todo-App/ToDoApp/ToDoApp.Android/ToDoApp.Android.csproj",
-      "packagesPath": "/Users/pedroevangelista/.nuget/packages/",
-      "outputPath": "/Users/pedroevangelista/Documents/GitHub/Todo-App/ToDoApp/ToDoApp.Android/obj/",
+      "projectPath": "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp.Android\\ToDoApp.Android.csproj",
+      "packagesPath": "C:\\Users\\john\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/Users/pedroevangelista/.config/NuGet/NuGet.Config"
+        "C:\\Users\\john\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid90"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "/Users/pedroevangelista/Documents/GitHub/Todo-App/ToDoApp/ToDoApp/ToDoApp.csproj": {
-              "projectPath": "/Users/pedroevangelista/Documents/GitHub/Todo-App/ToDoApp/ToDoApp/ToDoApp.csproj"
+            "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp\\ToDoApp.csproj": {
+              "projectPath": "C:\\Users\\john\\Documents\\GitHub\\Todo-App\\ToDoApp\\ToDoApp\\ToDoApp.csproj"
             }
           }
         }
@@ -2350,7 +2357,7 @@
     {
       "code": "NU1107",
       "level": "Error",
-      "message": "Version conflict detected for Xamarin.Android.Support.Loader. Install/reference Xamarin.Android.Support.Loader 28.0.0.3 directly to project ToDoApp.Android to resolve this issue. \n ToDoApp.Android -> ToDoApp -> Xamarin.Forms.Maps 4.5.0.356 -> Xamarin.Android.Support.v7.AppCompat 28.0.0.3 -> Xamarin.Android.Support.Fragment 28.0.0.3 -> Xamarin.Android.Support.Loader (= 28.0.0.3) \n ToDoApp.Android -> Xamarin.Android.Support.Core.Utils 28.0.0.1 -> Xamarin.Android.Support.Loader (= 28.0.0.1).",
+      "message": "Version conflict detected for Xamarin.Android.Support.Loader. Install/reference Xamarin.Android.Support.Loader 28.0.0.3 directly to project ToDoApp.Android to resolve this issue. \r\n ToDoApp.Android -> ToDoApp -> Xamarin.Forms.Maps 4.5.0.356 -> Xamarin.Android.Support.v7.AppCompat 28.0.0.3 -> Xamarin.Android.Support.Fragment 28.0.0.3 -> Xamarin.Android.Support.Loader (= 28.0.0.3) \r\n ToDoApp.Android -> Xamarin.Android.Support.Core.Utils 28.0.0.1 -> Xamarin.Android.Support.Loader (= 28.0.0.1).",
       "libraryId": "Xamarin.Android.Support.Loader",
       "targetGraphs": [
         "MonoAndroid,Version=v9.0"
